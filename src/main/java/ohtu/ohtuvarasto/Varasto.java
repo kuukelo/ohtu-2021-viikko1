@@ -69,23 +69,6 @@ public class Varasto {
         saldo = saldo - maara;  // vähennetään annettava saldosta
         return maara;
     }
-    public void virheMetodi() 
-    {
-        int kolikko = 1;
-        for (int i = 0; i<3; i++) {
-            for (int i2 = 0; i2 < 5; i++) {
-                kolikko++;
-            }
-        }
-kolikko--;
-        if (kolikko == 2) {
-            if (kolikko > 1) {
-                kolikko += 5;
-            }
-        }
-    
-
-    }
 
     // --- Merkkijonoesitys Varasto-oliolle: ----
     public String toString() {
